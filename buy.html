@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to BluejackAquarium</title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <div class="nav">
+            <table width="100%">
+                <tr>
+                    <th><h1>Bluejack AWquarium</h1></th>
+                    <td width="70%">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="buy.html">Buy</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="form">
+            <h2>Please input the data</h2>
+            <form id="test">
+                <input type="text" id="fullName" placeholder=" Full Name">
+                <br>
+                <input type="text" id="email" placeholder=" Email">
+                <br>
+                <input type="text" id="telephone" placeholder=" Telephone">
+                <br>  
+                Type:&nbsp;
+               <select name="combobox" id="type">
+                   <option value="normal">Normal</option>
+                   <option value="group">Group</option>
+                   <option value="express">Express</option>
+               </select>
+                <br>
+                Guide:&nbsp;<input type="radio" name="guide" id="yes">Yes <input type="radio" name="guide" id="no">No
+                <br>
+                <input type="text" id="numVisitor" placeholder="  Number of Visitor">
+                <br>
+                Visit Date <br>
+                <input type="date" id="visitDate">
+                <br> <br> <br>
+                <input type="checkbox" name="agrement" id="agreement">
+                <label for="name">I agree</label>
+                <br><br>
+               <button onclick="check()" type="submit">Submit</button>
+            </form>
+        </div>
+ 
+    </body>
+    <script src="buy.js"></script>
+</html>

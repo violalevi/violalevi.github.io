@@ -1,0 +1,160 @@
+html,body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: ghostwhite;
+}
+/* nav bar */
+.nav{
+    background-color: dodgerblue;
+}
+.nav table{
+    width: 100%;
+}
+.nav table tr th{
+    text-align: left;
+}
+.nav table tr td{
+    text-align: end;
+}
+.nav table tr th h1{
+    color: whitesmoke;
+    padding-left: 10px;
+    font-family: Helvetica;
+}
+.nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    color: white;
+}
+.nav ul li a #hover{
+    color: white;
+}
+/* buy */
+.form{
+    margin-top: 100px;
+    margin-left:400px;
+    margin-right: 400px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    padding-top:10px;
+    border: dashed #D8D8D8 5px ;
+}
+.form h2{
+    color: #404040;
+}
+.form form input{
+    border-radius: 5px;
+    border-style: groove;
+}
+ .form form input[type=radio]{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.form form input[type=text]{
+   width: 500px;
+   height: 35px;
+  
+}
+.form button{
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border-style: groove;
+    width: 100px;
+    height: 50px;
+    border-style: none;
+}
+.form button:hover{
+    color: whitesmoke;
+    background-color: darkturquoise;
+   
+}
+/* gallery */
+.gallery{
+    padding-left: 50px;
+    padding-right:100px;
+}
+.gallery h2{
+    text-align: center;
+    color: #404040;
+}
+.gallery hr{
+    width: 350px;
+}
+.gallery table{
+    width: 100%;
+    
+}
+.gallery table tr td img{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+/* home */
+.content img{
+   width: 100%;
+ 
+}
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+  }
+.centered h1 {
+    color: #D8D8D8;
+    font-size: 60px;
+}
+.centered p {
+    color: #D8D8D8;
+    font-size: 30px;
+}
+
+/* events */
+.content .events{
+    padding-left: 100px;
+}
+.content .events h2{
+    color:#404040;
+}
+.content .events table tr td {
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+.events hr{
+    width: 1300px;
+    text-align: left;
+    margin-left: 0;
+
+}
+.content .events table tr td img {
+    width:350px;
+    height:300px;
+}
+.content .events table tr td p {
+    word-wrap: break-word;
+    color: #505050;
+}
+.content .events table tr td h3{
+    color: #404040;
+}
+/* about us */
+.content .about_us{
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+.content .about_us h2{
+   color:#404040;
+}
+.content .about_us p{
+    color:#505050;
+ }
